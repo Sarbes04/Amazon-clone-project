@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box; /*border se area nhi badhega*/
+
+}
+
+.navbar{
+    display: flex;
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("amazon-logo.png");
+}
+.nav-logo{
+    margin-left: 2px;
+    height: 50px;
+    width: 100px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.adf{
+    margin-top: 8px;
+    margin-left: 15px;
+    font-size: 0.85rem;
+    color: #cccccc;
+}
+.ads{
+    margin-left: 3px;
+    font-size: 1rem;
+    color: #ffffff;
+}
+.add-icon{
+    display: flex;
+    align-items:center;
+}
+.fa-solid fa-location-dot{
+    height: 5px;
+    width: 5px;
+}
+.nav-address{
+    height: 50px;
+    margin-left: 4px;
+}
+.nav-search{
+    margin-left: 12px;
+    display: flex;
+    width: 620px;
+    height: 40px;
+    background-color:orange;
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:orange;
+    width: 50px;
+    border-radius: 4px;
+    font-size: 1.25rem;
+    color: #0f1111;
+}
+.search-select{
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.search-input{
+    width: 520px;
+    border: none;
+    font-size: 1rem;
+}
+span{
+    font-size: 0.8rem;
+}
+.navsec{
+    font-weight: 700;
+}
+.nav-cart i{
+    font-size: 1.7rem;
+}
+.nav-cart {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.panel{
+    display: flex;
+    background-color: #222f3d;
+    height: 40px;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.panel-ops{
+    width: 1700px;
+    display: flex;
+    font-size: 0.85rem;
+    font-weight: 700;
+    justify-content: space-evenly;
+}
+.panel-all{
+    margin-left: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 60px;
+    height: 38px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.x{
+    height: 38px;
+    display: flex;
+    align-items: center;
+    padding-left: 7px;
+    padding-right: 7px;
+   
+}
+.hero-section{
+    background-image: url(herobi.jpg);
+    height: 700px;
+    margin-left: 6px;
+    margin-right: 6px;
+    display: flex;
+    background-size: cover;
+    justify-content: space-evenly;
+}
+.hu{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 270px;
+    height: 400px;
+}
+.h1{
+    background-image: url(h1.png);
+    height: 420px;
+    width: 350px;
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+
+}
+.h2{
+    background-image: url(h2.png);
+    height: 420px;
+    width: 350px;
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.h3{
+    background-image: url(h3.png);
+    height: 420px;
+    width: 350px;
+    background-size:cover;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.h4{
+    background-image: url(h4.png);
+    height: 150px;
+    width: 350px;
+    background-size:cover;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.maidan{
+    background-image: url(h5.png);
+    background-size: cover;
+    height: 420px;
+    width: 100%;
+}
+.btt{
+    display: flex;
+    background-color: #222f3d;
+    font-size:0.85rem;
+    color: white;
+    justify-content: space-evenly;
+    height: 40px;
+    align-items: center;
+    font-weight: 600;
+}
+.fs{
+    padding-top: 50px;
+    background-color: #0b1621;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.r{
+    font-size: 0.85rem;
+}
+.e{
+    font-size: 1.1rem;
+}
+.fp3{
+    border-top: 1px solid grey;
+    background-image: url(h6.png);
+    background-size: cover;
+    height: 85px;
+}
+.fp4{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    background-color: #0b1621;
+}
+a{
+    font-size: 0.85rem;
+    text-decoration: none;
+    padding-left: 4px;
+    color: white;
+}
+.copyright{
+    font-size: 0.85rem;
+    margin-top: 8px;
+    text-align: center;
+    color: white;
+}
